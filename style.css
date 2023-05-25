@@ -1,0 +1,96 @@
+body {
+    background-image: url(./imagens/fundo-home1.jpg);
+    background-position: auto;
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 0;
+}
+
+header{
+    background-color:  rgb(51, 1, 58);
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0px;
+    border-radius: 25px;
+    margin-bottom: 0px;
+}
+footer {
+    background-color: rgb(51, 1, 58);
+    background-position: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px;
+    border-radius: 25px;
+}
+footer .gif-footer{
+    width: 200px;
+    height: 150px;
+}
+footer .gif-footer{
+    background-position:center;
+    display: flex;
+}
+header .imagem-botao,
+header .botao-home,
+header .conquistas,
+header .momentos,
+header .mundos{
+    background-position:center;
+    display: flex;
+}
+header .botao-home{
+width: 50px;
+}
+header .imagem-botao{
+    width: 150px;
+    height: 100px;
+}
+    header .conquistas,
+    header .momentos,
+    header .mundos{
+        color:olivedrab;
+        font-family: 'Alex Brush', cursive;
+        font-size: 50px;
+        font-weight: 400;
+    }
+header #botao-alterar-tema{
+    background: none;
+    border: none;
+}
+header .momentos:hover,
+header .conquistas:hover,
+header .botao-home,
+header .imagem-botao:hover{
+    transform: scale(1.05);
+    cursor:pointer;
+}
+h3{
+    color:black;
+    font-family: 'Alex Brush', cursive;
+    text-align: center;
+    font-size: 55px;
+    background-color:burlywood;
+    border-radius: 25px;
+}
+.texto-footer{
+    color:olivedrab;
+    font-family:'Alex Brush', cursive;
+    font-size: 25px;
+}
+body .texto-inicial{
+    color:rgb(160, 4, 4);
+    font-family: 'Alex Brush', cursive;
+    background-color: whitesmoke;
+    font-size: 50px;
+    border-radius: 25px;
+    text-align: left;
+}

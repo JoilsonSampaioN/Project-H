@@ -1,0 +1,115 @@
+body {
+    background-image:url(./imagens/textura-preta.jpg);
+    background-position: auto;
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 0;
+}
+
+header{
+    background-color:  rgb(51, 1, 58);
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0px;
+    border-radius: 25px;
+    margin-bottom: 0px;
+}
+footer {
+    background-color:  rgb(51, 1, 58);
+    background-position: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px;
+    border-radius: 25px;
+}
+footer .gif-footer{
+    width: 200px;
+    height: 150px;
+}
+header .imagem-botao,
+header .botao-home,
+header .conquistas,
+header .momentos,
+header .mundos{
+    background-position:center;
+    display: flex;
+}
+footer .gif-footer{
+    background-position:center;
+    display: flex;
+}
+h3 {
+    background-position:center;
+    color: olivedrab;
+    display: flex;
+    margin-bottom: 10px;
+}
+header .botao-home{
+width: 50px;
+}
+header .imagem-botao{
+    width: 150px;
+    height: 100px;
+}
+header .conquistas,
+header .momentos,
+header .mundos{
+        color:olivedrab;
+        font-family: 'Alex Brush', cursive;
+        font-size: 50px;
+        font-weight: 400;
+    }
+header #botao-alterar-tema{
+    background: none;
+    border: none;
+}
+header #botao-home{
+    background: none;
+    border: none;
+}
+
+header .momentos:hover,
+header .conquistas:hover,
+header .imagem-botao:hover,
+header .botao-home:hover,
+header .mundos:hover{
+    transform: scale(1.05);
+    cursor:pointer;
+    }
+    h1{
+        color: rgb(10, 10, 10);
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 50px;
+        font-weight: 400;
+        background-color: whitesmoke;
+        border-radius: 25px;
+        text-align: center;
+    }
+    span {
+        font-family: 'Geostar', cursive;
+        font-size: 50px;
+        font-weight: 400;
+        color: rgb(158, 122, 3);
+    }
+
+    p {
+        font-family: 'Roboto Slab', serif;
+        font-size: 20px;
+        font-weight: 400;
+        color: rgb(158, 122, 3);
+        position:relative
+    }
+ .fotos-mundo {
+    width: 400px; 
+     height: auto; 
+ }
+                  
